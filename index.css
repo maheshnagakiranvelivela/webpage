@@ -1,0 +1,868 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+/* nav bar */
+#nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#items{
+    display: flex;
+    margin-top: 50px;
+}
+#logo{
+    margin-top: 40px;
+}
+#sheep{
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin: 0 20px;
+}
+ul li button,button{
+    height: 50px;
+    width: 200px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+}
+ul li button{
+    margin-top: 100px;
+}
+/* con */
+#con{
+    height: 90vh;
+    width: 100%;
+    background-color: darkgreen;
+}
+#con img{
+    transform: translate(500px,-272px);
+}
+#con h1{
+    font-size: 6rem;
+    margin: 100px 100px;
+    color: white;
+}
+#con button{
+    margin-left: 100px;
+    transform: translate(0px,-420px);
+}
+#con h2{
+    margin-left: 100px;
+    color: white;
+    transform: translateY(100px);
+    background-color: rgb(38, 163, 38);
+    width: 22%;
+    padding: 10px;
+    border-left: 4px solid white;
+}
+#photo{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 40px;
+    background-image: url("./pexels-elletakesphotos-1680175.jpg");
+    background-size: 100%;
+}
+#name{
+    height: 50px;
+    width: 500px;
+    position: relative;
+    top: -70px;
+    left: 270px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#name1{
+    height: 50px;
+    width: 500px;
+    position: relative;
+    top: -120px;
+    left: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#name2{
+    height: 100px;
+    width: 600px;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    font-size: 40px;
+    text-indent: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#outer-div{
+    height: 300px;
+    width: 98vw;  
+    display: flex;
+    justify-content: space-around;   
+}
+#outer-div #photo1,#home #photo2,#life #photo3,#health #photo4{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-image: url("./car-insurance-vector-logo-concept-protect-icon-car-insurance-umbrella-cover-care-illustration-2E3PT34-removebg-preview.png");
+    background-size: 100%;
+}
+#car{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 20px gray;  
+}
+#car h1{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#car p{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 23px;
+}
+#car #p2{
+    text-indent: 20px;
+    margin-top: 3px;
+}
+#home{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 20px gray; 
+}
+#home #photo2{
+    background-image: url("./Home_insurence-removebg-preview.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+}
+#home h1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#home p{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 23px;
+}
+#home #p2{
+    text-indent: 20px;
+    margin-top: 3px;
+}
+#life{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 20px gray; 
+}
+#life h1{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#life #photo3{
+    background-image: url("./Life_Insurance-removebg-preview.png");
+    background-size: 100% 100%;
+}
+#life p{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 23px;
+}   
+#life #p1{
+    text-indent: 20px;
+    margin-top: 3px;
+}
+#health{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 20px gray; 
+}
+#health #photo4{
+    background-image: url("./Helth_Insurance-removebg-preview.png");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+}
+#health h1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#health p{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 23px;
+}   
+#health #p1{
+    text-indent: 20px;
+    margin-top: 3px;
+}
+#outer-div2{
+    height: 100vh;
+    width: 98vw;
+    margin-top: 150px ;
+    display: flex;
+}
+#inner-div1{
+    height: 740px;
+    width: 700px;
+    /* border: 2px dotted red; */
+}
+#inner-div1-1{
+    height: 600px;
+    width: 500px;
+    /* border: 2px dotted red; */
+    margin-top: 80px;
+    margin-left: 80px;
+    background-image: url("./pexels-karolina-grabowska-4021810.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#inner-div1-11{
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 400px;
+    left: 10px;
+    background-image: url("./Smile\ Pic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: pink;
+}
+#inner-div1-12{
+   height: 180px;
+   width: 180px;
+   border: 6px solid white;
+   position: relative;
+   bottom: 330px;
+   left: 350px;
+   background-image: url("./insurence\ 1.png");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-color: whitesmoke;
+}
+#inner-div1-13{
+    height: 100px;
+    width: 100px;
+    border: 6px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 1030px;
+    left: 530px;
+    background-color: orange;
+    background-image: url("./Arrow.png");
+    background-size: 100%;
+
+}
+#inner-div1-14{
+    height: 80px;
+    width: 250px;
+    border-radius: 10%;
+    position: relative;
+    top: -1120px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+#inner-div1-14-1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url("./Life_Insurance-removebg-preview.png");
+    background-size: 100% 100%;
+    background-color: whitesmoke;
+}
+#inner-div1-14 p{
+    font-size: 20px;
+}
+#inner-div1-2{
+    height: 740px;
+    width: 700px;
+    /* border: 2px dotted red; */
+    margin-left: 100px;
+}
+#inner-div1-2 h2{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+   
+    background-color: rgb(153, 154, 154);
+    width: 300px;
+    padding: 10px;
+    border-left: 4px solid rgb(100, 16, 255);
+}
+#inner-div1-2 h1{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(35, 62, 94);
+}
+#inner-div1-2 p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#outer-div2-1{
+    height: 300px;
+    width: 300px;
+    border: 2px dotted red;
+}
+#inner-div1-3 h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 330px;   
+}
+#inner-div1-3 #p{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#inner-div1-4 h1{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 330px;   
+}
+#inner-div1-4 #p2{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+/* Money Garenty And Tecnical Support */
+#inner-div1-31{
+    height: 100px;
+    width: 100px;
+    border: 2px dotted green;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+    left: 60px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2534/2534208.png");
+    background-size: 100% 100%;
+}
+#inner-div1-41{
+    height: 100px;
+    width: 100px;
+    border: 2px dotted green;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+    left: 60px;
+    background-image: url("./support.png");
+    background-size: 100% 100%;
+}
+button{
+   margin-left: 50px;
+   transform: translateY(-60px);
+}
+#outer-div3{
+    height: 30%;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+#inner-div3-1{
+    height: 220px;
+    width: 300px;
+    border: 2px solid gray;
+    margin-left: 130px;
+}
+#inner-div3-1 h1{
+    font-size: 50px;
+    margin-left: 145px;
+    margin-top: 60px;
+}
+#inner-div3-1 p{
+    font-size:25px;
+    margin-left: 120px;
+}
+#inner-div3-11{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -85px;
+    left: 10px;
+    background-image: url("./Insurance.png");
+    background-size: 100% 100%;
+} 
+#inner-div3-2{
+    height: 220px;
+    width: 300px;
+    border: 2px solid gray; 
+}
+#inner-div3-2 h1{
+    font-size: 50px;
+    margin-left: 145px;
+    margin-top: 60px;
+}
+#inner-div3-2 p{
+    font-size:25px;
+    margin-left: 120px;
+}
+#inner-div3-21{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -110px;
+    left: 10px;
+    background-image: url("./Happy.png");
+    background-size: 100% 100%;
+}
+#inner-div3-3{
+    height: 220px;
+    width: 300px;
+    border: 2px solid gray;
+}
+#inner-div3-3 h1{
+    font-size: 50px;
+    margin-left: 145px;
+    margin-top: 60px;
+}
+#inner-div3-3 p{
+    font-size:25px;
+    margin-left: 120px;
+}
+#inner-div3-31{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -110px;
+    left: 10px;
+    background-image: url("./team.png");
+    background-size: 100% 100%;
+}
+#inner-div3-4{
+    height: 220px;
+    width: 300px;
+    border: 2px solid  gray;
+}
+#inner-div3-4 h1{
+    font-size: 50px;
+    margin-left: 145px;
+    margin-top: 60px;
+}
+#inner-div3-4 p{
+    font-size:25px;
+    margin-left: 120px;
+}
+#inner-div3-41{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: 10px;
+    background-image: url("./rating.png");
+    background-size: 100% 100%;
+}
+#outer-div4 h2{
+    margin-left: 600px;
+    color: white;
+    transform: translateY(100px);
+    background-color: rgb(88, 219, 245);
+    width: 22%;
+    padding: 10px;
+    border-top: 4px solid green;
+    display: flex;
+    justify-content: center;
+}
+#outer-div4 h1{
+    position: relative;
+    top: 150px;
+    left: 500px;
+    font-size: 50px;
+    color: rgb(110, 5, 110);
+    width: 50%;
+}
+#outer-div5{
+    height: 60%;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 150px;
+    display: flex;
+    margin-bottom: 100px;
+}
+#inner-div5-1{
+    height: 443px;
+    width: 350px;
+    border: 4px solid gainsboro;
+    margin-left: 30px;
+    background-image: url("https://stratus.hr/hubfs/how%20to%20outsource%20hr.webp");
+    background-size: 100% 100%;
+}
+#inner-div5-2{
+    height: 443px;
+    width: 350px;
+    border: 4px solid gainsboro;
+    margin-left: 30px;
+    background-image: url("https://media.istockphoto.com/id/2064215500/photo/happy-business-people-contract-or-shaking-hands-for-recruitment-collaboration-or-teamwork.webp?b=1&s=170667a&w=0&k=20&c=3CAZtgKNd4YKAPMWWlqrSkcAEfris04dxkBPnTonp1I=");
+    background-size: 100% 100%;
+}
+#inner-div5-3{
+    height: 443px;
+    width: 350px;
+    border: 4px solid gainsboro;
+    margin-left: 30px;
+    background-image: url("https://cdn.create.vista.com/api/media/small/98114574/stock-photo-young-people-in-the-office");
+    background-size: 100% 100%;
+}
+#outer-div6{
+    height: 180vh;
+    width: 98vw;
+    border: 2px dotted white;
+    background-color: rgb(255, 223, 241)
+}
+#outer-div6 h1{
+    font-size: 50px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+#outer-div6 p{
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#outer-div6 h2{
+    margin-left: 100px;
+    color: green;
+    transform: translateY(100px);
+    background-color: white;
+    width: 16%;
+    padding: 10px;
+    border-left: 4px solid green;
+}
+#outer-div6 #name{
+    position: relative;
+    top: 20px;
+    left: -150px;
+    font-size: 45px;
+}
+#outer-div6 #color{
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+    left: 4px;
+    font-size: 20px;
+}
+#inner-div6-1{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 105px;
+    box-shadow: 10px 10px 20px gray;
+}
+#inner-div6-1 h1{
+    position: relative;
+    top: -130px;
+    left: -190px;
+    font-size: 20px;
+}
+#inner-div6-11{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-image: url("https://www.shutterstock.com/image-vector/insurance-palm-hand-holds-person-260nw-1741502102.jpg");
+    background-size: 100% 100%;
+}
+#inner-div6-2{
+    height: 200px;
+    width: 200px;
+    margin-left: 350px;
+    position: relative;
+    top: -200px;
+    box-shadow: 10px 10px 20px gray;
+}
+#inner-div6-2 h1{
+    position: relative;
+    top: -150px;
+    left: -190px;
+    font-size: 20px;
+}
+#inner-div6-22{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSguvuIMjd0jtXef9XBPhdLuVx_3V3AB4vEie7WMDh1351Fxmv5I8Cw0BU4bo-t7SMfCXk&usqp=CAU");
+    background-size: 100% 100%;
+}
+#inner-div6-3{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -150px;
+    left: 105px;
+    box-shadow: 10px 10px 20px gray;
+}
+#inner-div6-3 h1{
+    position: relative;
+    top: -140px;
+    left: -190px;
+    font-size: 20px;
+}
+#inner-div6-33{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-image: url("https://teenlearner.com/wp-content/uploads/2021/10/Reasons-to-save-money-as-a-teenager-300x200.jpg");
+    background-size: 100% 100%;
+}
+#inner-div6-4{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -350px;
+    left: 350px;
+    box-shadow: 10px 10px 20px gray;
+}
+#inner-div6-4 h1{
+    position: relative;
+    top: -140px;
+    left: -190px;
+    font-size: 20px;
+}
+#inner-div6-44{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-image: url("https://www.iciciprulife.com/content/dam/icicipru/products/health-insurance/health-Insurance.png");
+    background-size: 100% 100%;
+}
+#inner-div6-5{
+    height: 880px;
+    width: 655px;
+    /* border: 2px dotted red; */
+    position: relative;
+    bottom: 1080px;
+    left: 800px;
+    background-image: url("https://t3.ftcdn.net/jpg/06/96/39/22/360_F_696392260_DdKdLwRl02TzCq7Z9DoZenShBHHgUVXZ.jpg");
+    background-size: 100% 100%;
+}
+/* #inner-div6-5-1{
+    height: 750px;
+    width: 180px;
+    border: 2px dotted red;
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+#inner-div6-5-1 button{
+    height: 50px;
+    width: 150px;
+    margin-top: 850px;
+    margin-left: 15px;
+    border-radius: 5%;
+}
+#inner-div6-5-11{
+    height: 150px;
+    width: 150px;
+    border: 2px dotted red;
+    position: relative;
+    bottom: 300px;
+    left: 15px;
+} */
+#client{
+    height: 700px;
+    width: 98vw;
+    background-color: rgb(192, 237, 255);
+    padding: 50px;
+}
+#client h3{
+    padding: 10px;
+    color: darkgreen;
+    border-left: 4px solid darkgreen;
+    background-color: rgb(213, 243, 255);
+    width: 180px;
+    margin-bottom: 50px;
+}
+#client-1 button{
+    transform: translate(1100px,-150px);
+    
+}
+#card{
+    display: flex;
+    justify-content: space-around;
+}
+#card-1,#card-2,#card-3{
+    height: 350px;
+    width: 400px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    border: 4px solid white;
+    border-radius: 50%;
+    transform: translateY(130px);
+    /* background-color: red; */
+}
+#circle1{
+    background-image: url("https://img.freepik.com/free-photo/snapshot-curly-blond-girl-with-slight-smile-looking-camera-street_197531-26018.jpg");
+    background-size: 100% 100%;
+}
+#circle2{
+    background-image: url("https://t3.ftcdn.net/jpg/01/86/40/16/360_F_186401650_6tXxwc5x3pwuA9bYjJG65l9pCFRIAu06.jpg");
+    background-size: 100% 100%;
+}
+#circle3{
+    background-image: url("https://st2.depositphotos.com/1465849/8418/i/450/depositphotos_84183876-stock-photo-teenage-boy-smiling-outside.jpg");
+    background-size: 100% 100%;
+}
+#square1{
+     background-image: url("https://st2.depositphotos.com/1594308/10487/i/950/depositphotos_104870148-stock-photo-team-working-at-office.jpg");
+     background-size: 100% 100%;
+}
+#square2{
+    background-image: url("https://cdn.create.vista.com/api/media/small/98114574/stock-photo-young-people-in-the-office");
+    background-size: 100% 100%;
+}
+#square3{
+    background-image: url("https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15861.jpg");
+    background-size: 100% 100%;
+}
+#blog h3{
+    margin-top: 50px;
+    background-color: skyblue;
+    color: darkgreen;
+    border-top: 4px solid darkgreen;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transform: translate(700px,0);
+}
+#blog h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 5rem;
+}
+#square{
+    display: flex;
+    justify-content: space-evenly;
+}
+.squares{
+    height: 350px;
+    width: 400px;
+    /* background-color: red; */
+}
+#pg-1{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.combo button{
+    transform: translateY(40px);
+}
+#outer-div7{
+    height: 250px;
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 280px;
+    background-color: rgb(5, 133, 33);
+}
+#outer-div7 h2{
+    margin-left: 50px;
+    color: white;
+    transform: translateY(100px);
+    background-color: yellow;
+    width: 250px;
+    padding: 10px;
+    border-left: 4px solid white;
+    margin-top: -50px;
+}
+#outer-div7 h1{
+    margin-left: 50px;
+    width: 500px;
+    margin-top: 150px;
+    color: white;
+}
+#outer-div7 button{
+    height: 70px;
+    position: relative;
+    top: -70px;
+    left: 700px;
+
+}
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    background-color: rgb(8, 47, 8);
+    color: white;
+}
+#footer h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#sp{
+    margin-top: 100px !important;
+}
+#mail{
+    border: none;
+    outline: none;
+    background-color: rgb(8, 47, 8);
+    border-bottom: 4px solid black;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    color: white;
+    margin-bottom: 20px;
+}
+#sp1{
+    width: 300px;
+}
+#footer h3{
+    margin: 10px;
+}
+#footer div{
+    margin: 50px;
+}
+#copy{
+    text-align: center;
+    height: 50px;
+    background-color: darkcyan;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
